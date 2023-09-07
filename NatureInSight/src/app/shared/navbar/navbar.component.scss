@@ -1,0 +1,19 @@
+#intro {
+    background-image: url(../../../assets/images/forest.jpg);
+    height: 100vh;
+  }
+
+  .navbar{
+     padding: 2rem;
+     background-color: #1bd40b;
+
+  }
+
+  .navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .active{
+    color: red;
+  }
