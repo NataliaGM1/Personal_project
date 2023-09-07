@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { BannerComponent } from './shared/banner/banner.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { LoginFormComponent } from './components/auth/login-form/login-form.component';
+import { RegisterFormComponent } from './components/auth/register-form/register-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     BannerComponent,
-    FooterComponent
+    FooterComponent,
+    LoginFormComponent,
+    RegisterFormComponent,
+    ReactiveFormsModule
   ],
   imports: [
     BrowserModule,
