@@ -9,6 +9,13 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { LoginFormComponent } from './components/auth/login-form/login-form.component';
 import { RegisterFormComponent } from './components/auth/register-form/register-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HomeComponent } from './pages/home/home.component';
+import { LoginComponent } from './pages/login/login.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { RegisterComponent } from './pages/register/register.component';
+import { PlantListComponent } from './pages/plant-list/plant-list.component';
+import { DetailsComponent } from './pages/details/details.component';
+import { IllnessIndexComponent } from './pages/illness-index/illness-index.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +25,19 @@ import { ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     LoginFormComponent,
     RegisterFormComponent,
-    ReactiveFormsModule
+    HomeComponent,
+    LoginComponent,
+    PageNotFoundComponent,
+    RegisterComponent,
+    PlantListComponent,
+    DetailsComponent,
+    IllnessIndexComponent,
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
