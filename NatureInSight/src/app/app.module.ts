@@ -17,6 +17,8 @@ import { RegisterComponent } from './pages/register/register.component';
 import { PlantListComponent } from './pages/plant-list/plant-list.component';
 import { DetailsComponent } from './pages/details/details.component';
 import { IllnessIndexComponent } from './pages/illness-index/illness-index.component';
+import { PlantCardComponent } from './plants/components/plant-card/plant-card.component';
+import { ListPlantComponent } from './plants/components/list-plant/list-plant.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { IllnessIndexComponent } from './pages/illness-index/illness-index.compo
     PlantListComponent,
     DetailsComponent,
     IllnessIndexComponent,
+    PlantCardComponent,
+    ListPlantComponent,
    
   ],
   imports: [
