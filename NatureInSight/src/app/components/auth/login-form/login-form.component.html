@@ -1,32 +1,38 @@
-<div class="container text-center justify-content-center align-items-center">
+<div class="container text-white text-center justify-content-center align-items-center">
     <h4>LOGIN</h4>
   <form [formGroup]="loginForm">
     <p class="text-danger">{{loginError}}</p>
       <div class="mb-3">
-        <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email" aria-describedby="emailHelp">
+        <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Introduce tu email" aria-describedby="emailHelp">
         
           <div *ngIf="email.invalid && (email.dirty || email.touched)"
           class="text-danger">
   
           <div *ngIf="email.errors?.['required']">
-          Email is required.
+          Email requerido.
           </div>
           <div *ngIf="email.errors?.['email']">
-          Email must have a valid form.
+          El email debe tener un formato válido.
           </div>
         </div>
       </div>
       <div class="mb-3">
-        <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+        <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
         <div *ngIf="password.invalid && (password.dirty || password.touched)"
         class="text-danger">
   
         <div *ngIf="password.errors?.['required']">
-        Password is required.
+        Contraseña obligatoria.
         </div>
       </div>
       </div>
       <button type="submit" (click)="login()" class="btn btn-light">Iniciar sesión</button>
+      
+      <div>
+        <p class="mb-0">Don't have an account? <a routerLink="/register" routerLinkActive="active" class="text-white fw-bold">Sign Up</a>
+        </p>
+      </div>
     </form>
+    
   </div>
   
