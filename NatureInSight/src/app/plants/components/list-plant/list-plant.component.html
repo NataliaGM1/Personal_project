@@ -1,57 +1,8 @@
-<!-- <div id="intro" class="bg-image ">
-    <div class="mask align-items-center h-100" style="background-color: rgba(0, 0, 0, 0.8);">
-<nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      
-      <div class="collapse navbar-collapse" id="navbarToggler">
-        <ul class="navbar-nav d-flex justify-content-center align-items-center">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" routerLink="/home" routerLinkActive="active">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/plant-list" routerLinkActive="active">Plantas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/illness-index" routerLinkActive="active">Dolencias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/consejos" routerLinkActive="active">Consejos</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" routerLinkActive="active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Tiendas con descuento
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="https://migreenclub.com/profesionales/natalia-salud-integral/">GreenClub</a></li>
-              <li><a class="dropdown-item" href="https://www.exialoe.es/?promoc=29785NM">Exialoe</a></li>
-              </ul>
-            </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://nataliasaludintegral.com/artesanos-de-salud/" routerLinkActive="active">Blog</a>
-          </li>
-        </ul> -->
-        <!-- <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form> -->
-      <!-- </div>
-     
-    </div>
-   
-  </nav> -->
 
-  <section id="galeria" class="container">
-  <div class="text-center pt-5">
-  <h3>Listado plantas medicinales</h3>
-   <!-- <div class="row"> -->
-    <!-- <div class="row col-lg-4 col-md-6 col-sm-12">   -->
-      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3">  
-<app-plant-card *ngFor="let plant of plants" [plants]="plant"></app-plant-card>
-  <!-- </div> -->
-</div>
-</div>
-</section>
+  
+    <div class="container"> 
+  
+
+     <app-plant-card *ngFor="let plant of plants" [plants]="plant" class="row justify-content-center row-cols-1 row-cols-md-2 row-cols-md-4"></app-plant-card> 
+  
+  </div> 

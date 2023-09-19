@@ -1,6 +1,9 @@
 .container-fluid{
   background-image: url('../../../assets/images/forest.jpg');
   height: 100vh;
+  background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+  background-attachment: fixed;
 }
 
 // .bg-image {

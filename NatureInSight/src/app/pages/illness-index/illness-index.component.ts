@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./illness-index.component.scss']
 })
 export class IllnessIndexComponent {
+  titulo="Index dolencias";
 
 }

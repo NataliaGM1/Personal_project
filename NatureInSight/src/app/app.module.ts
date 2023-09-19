@@ -19,6 +19,7 @@ import { DetailsComponent } from './pages/details/details.component';
 import { IllnessIndexComponent } from './pages/illness-index/illness-index.component';
 import { PlantCardComponent } from './plants/components/plant-card/plant-card.component';
 import { ListPlantComponent } from './plants/components/list-plant/list-plant.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { ListPlantComponent } from './plants/components/list-plant/list-plant.co
     IllnessIndexComponent,
     PlantCardComponent,
     ListPlantComponent,
+    HeaderComponent,
    
   ],
   imports: [

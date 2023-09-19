@@ -8,6 +8,7 @@ import { Plants } from 'src/models/Plants.model';
   styleUrls: ['./list-plant.component.scss']
 })
 export class ListPlantComponent {
+  titulo="Listado plantas medicinales";
   usuario= 'Maria';
   plants:Plants[]=plants
 

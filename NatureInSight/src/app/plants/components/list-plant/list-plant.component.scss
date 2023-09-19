@@ -28,17 +28,38 @@
     margin-bottom: 40px;
  }
 
- #galeria .row{
-  margin: 0 !important;
-  padding: 25px;
+//  #galeria .row{
+//   margin: 0 !important;
+//   padding: 25px;
   
   
   
- }
+//  }
 
- #galeria img{
-  width: 100%;
+//  #galeria img{
+//   width: 100%;
 
+//  }
+// #galeria {
+//    background-image: url('../../../../assets/images/spring.jpg');
+//    background-size: cover; 
+//    background-repeat: no-repeat;
+//    background-attachment: fixed; 
+// }
+
+button{
+   margin-left: 0;
+}
+
+.container{
+   
+   justify-content: center;
+   align-items: center;
+   
+}
+
+app-plant-card {
+   margin: 10px; 
  }
 
  
