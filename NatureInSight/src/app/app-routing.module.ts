@@ -6,6 +6,7 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
 import { PlantListComponent } from './pages/plant-list/plant-list.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { IllnessIndexComponent } from './pages/illness-index/illness-index.component';
+import { DetailsComponent } from './pages/details/details.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'plant-list', component: PlantListComponent},
   {path: 'illness-index', component: IllnessIndexComponent},
+  {path: 'details', component: DetailsComponent},
   { path: '**', component:PageNotFoundComponent}
 ];
 

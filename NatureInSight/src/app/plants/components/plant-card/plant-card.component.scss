@@ -2,28 +2,3 @@ p{
     text-align: center;
 }
 
-.like-button {
-    position: absolute;
-    z-index: 2;
-    color: whitesmoke;
-    font-size: 20px;
-    text-align: right;
-    cursor: pointer;
-    border-radius: 10rem;
-    background-color: transparent;
-    border: transparent;
-    width: 99%;
-    padding-top: 4px;
-    padding-right: 4px;
-}
-
-    .like-button :hover {
-        color: red;
-        }
-
-        .fa-heart {
-            position: absolute;
-            z-index: 2;
-            color: red;
-            position: absolute;
-        }
