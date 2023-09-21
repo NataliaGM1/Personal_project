@@ -7,6 +7,6 @@ import { Plants } from 'src/models/Plants.model';
   styleUrls: ['./details.component.scss']
 })
 export class DetailsComponent {
-  titulo="Apio";
+  titulo="Aloe Vera";
   @Input()plants!: Plants;
 }
