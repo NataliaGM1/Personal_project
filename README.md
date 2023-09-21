@@ -1,7 +1,15 @@
 <h1>NatureInSight - Tu Guía de Fitoterapia</h1>
 
 
-Bienvenido a NatureInSight, la  aplicación para explorar el apasionante mundo de la fitoterapia. Aquí encontrarás una amplia gama de información sobre plantas, sus usos, beneficios, y cómo pueden ayudarte a aliviar dolencias y mejorar tu bienestar. ¡Descubre el poder de la naturaleza a tu alcance!
+Bienvenido a <em>NatureInSight</em>, la  aplicación para explorar el apasionante mundo de la fitoterapia. Aquí encontrarás una amplia gama de información sobre plantas, sus usos, beneficios, y cómo pueden ayudarte a aliviar dolencias y mejorar tu bienestar. ¡Descubre el poder de la naturaleza a tu alcance!
+
+
+
+![Captura de pantalla 2023-09-21 181209](https://github.com/NataliaGM1/Personal_project/assets/133371035/c1a80809-fd44-4fdf-89eb-12b459d472c6)  ![Captura de pantalla 2023-09-21 181241](https://github.com/NataliaGM1/Personal_project/assets/133371035/077b479c-7ed5-40eb-aee1-1b6d32fb997d)       ![Captura de pantalla 2023-09-21 181313](https://github.com/NataliaGM1/Personal_project/assets/133371035/8ed7d532-0481-4240-97e5-7a0ede8de634)
+
+
+
+
 
 
 <h2>Índice:</h2>
@@ -16,7 +24,7 @@ Bienvenido a NatureInSight, la  aplicación para explorar el apasionante mundo d
 
 <h2>Introducción</h2>
 
-NatureInSight es una aplicación web desarrollada con Angular, Bootstrap, MySQL, Postman y Maven. Nuestra misión es proporcionar una plataforma intuitiva y accesible para aprender sobre las plantas y su potencial terapéutico. Ya sea que seas un entusiasta de la fitoterapia o simplemente estés interesado en mejorar tu bienestar, NatureInSight tiene algo para ti.
+<em>NatureInSight</em> es una aplicación web desarrollada con <strong>Angular, Bootstrap, MySQL, Postman y Maven.</strong> Nuestra misión es proporcionar una plataforma intuitiva y accesible para aprender sobre las plantas y su potencial terapéutico. Ya sea que seas un entusiasta de la fitoterapia o simplemente estés interesado en mejorar tu bienestar, <em>NatureInSight</em> tiene algo para ti.
 
 <h2>Características:</h2>
 
